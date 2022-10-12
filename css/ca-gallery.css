@@ -767,3 +767,13 @@ fieldset[disabled] .btn-xl:hover {
     padding-right: 0;
     padding-left: 0;
 }
+
+.contant-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.E-mail {
+    flex-grow: 100%;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body oncontextmenu="return false;" onload="init()" >
+
+
+    <div class="button">
+
+        <button class="level" onclick="beginner()">Beginner</button>
+        <button class="level" onclick="medium()">Medium</button>
+        <button class="level" onclick="expert()">Expert</button>
+    </div>
+
+    <h2 class="timer">Yuor time is: <span></span></h2>
+    
+    <button class="imuji" onclick="init()"></button>
+    <h3 class="imuji"></h3>
+    
+    <div class="board"></div>
+    
+    <h3 class="life">your life is: <span class="love"></span></h3>
+    <button class="hint hint1" onclick="hints(this)">💡</button>
+    <button class="hint hint2" onclick="hints(this)">💡</button>
+    <button class="hint hint3" onclick="hints(this)">💡</button>
+    <br>
+    <button class="btns unDo" onclick="unDo()">unDo</button>
+    <button class="btns safrCell" onclick="safeCells()">Safe cell <br><span></span> click available</button>
+    <button class="btns superHint" onclick="superHint()">super hint</button>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
